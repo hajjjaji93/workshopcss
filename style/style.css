@@ -1,0 +1,54 @@
+body {
+  /*width:1050px; /* base de test et de mesures */
+  margin: 0.5%;
+  /* 12px/16px 12px/1050px*/
+  font-family: "Roboto", sans-serif;
+  /* font-size : 16px;/* pour test ==> défini dans chaque media query */
+}
+img {
+  width: 12em;
+  border: 3px solid white;
+  padding-right: 90%;
+  padding-top: -50em;
+}
+li {
+  float: left;
+  display: inline;
+  border-right: 1px solid #bbb;
+}
+
+a {
+  display: inline-block;
+  padding: 8px;
+  background-color: black;
+}
+#dip {
+  color: blue;
+  text-align: center;
+  margin-top: -25%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #2a2ca5;
+}
+
+h2 {
+  margin-top: 10em;
+}
+p {
+  text-align: center;
+}
